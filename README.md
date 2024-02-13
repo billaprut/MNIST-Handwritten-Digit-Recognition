@@ -1,1 +1,7 @@
 # MNIST-Handwritten-Digit-Recognition
+
+Utilizing the MNIST dataset, a collection of 70,000 images of handwritten digits, I developed a model capable of distinguishing between 10 different digit classes. The project involved preprocessing the dataset, normalizing the images for consistent model input, and one-hot encoding the labels for classification.
+
+The core of my project was the development of the CNN model. This included designing a multi-layer architecture comprising convolutional layers for feature extraction, pooling layers for reducing spatial dimensions, dropout layers to prevent overfitting, and dense layers for classification. After compiling the model with the categorical crossentropy loss function and Adam optimizer, I trained it over multiple epochs. This training process not only honed the model's ability to classify digits but also provided insights into its learning dynamics.
+
+In evaluating the model, I focused on its performance on unseen test data, where it continued to demonstrate high accuracy, indicating robust generalization capabilities. Additionally, I experimented with visualizing the model's predictions on individual test images, including both correct and incorrect classifications. This visualization offered a deeper understanding of the model's behavior and areas of potential improvement. Furthermore, I tested the model with a custom handwritten digit, highlighting its practical application in real-world digit recognition tasks.
